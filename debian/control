@@ -1,0 +1,12 @@
+Source: ros-iron-point-cloud-msg-wrapper
+Section: misc
+Priority: optional
+Maintainer: Apex.AI, Inc. <opensource@apex.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ament-cmake-auto, ros-iron-ament-cmake-gtest <!nocheck>, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-geometry-msgs <!nocheck>, ros-iron-sensor-msgs, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-point-cloud-msg-wrapper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-sensor-msgs, ros-iron-ros-workspace
+Description: A point cloud message wrapper that allows for simple and safe PointCloud2 msg usage
