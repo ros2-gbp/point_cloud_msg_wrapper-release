@@ -1,0 +1,12 @@
+Source: ros-jazzy-point-cloud-msg-wrapper
+Section: misc
+Priority: optional
+Maintainer: Apex.AI, Inc. <opensource@apex.ai>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-auto, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-geometry-msgs <!nocheck>, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-point-cloud-msg-wrapper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Description: A point cloud message wrapper that allows for simple and safe PointCloud2 msg usage
